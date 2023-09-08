@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yapidonatien/projects/house-pm/mlruns/955565735833483815/9ce16500d51748bdb733d6143b447245/artifacts
+end_time: 1694172500756
+entry_point_name: ''
+experiment_id: '955565735833483815'
+lifecycle_stage: active
+run_id: 9ce16500d51748bdb733d6143b447245
+run_name: house-predictor_60_epochs
+run_uuid: 9ce16500d51748bdb733d6143b447245
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694172462635
+status: 3
+tags: []
+user_id: yapidonatien

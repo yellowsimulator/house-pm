@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-class RealisticSimulatedDataset:
+class SimulatedDataset:
     def __init__(self, n_samples=1000):
         self.n_samples = n_samples
         
@@ -68,7 +68,7 @@ class RealisticSimulatedDataset:
         return data
 if __name__ == '__main__':
     # Test the dataset
-    dataset = RealisticSimulatedDataset(n_samples=5)
+    dataset = SimulatedDataset(n_samples=5)
     sample_data = dataset.generate()
     print(sample_data)
 

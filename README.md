@@ -42,3 +42,11 @@ A garage might improve house condition as it provides protection for certain ass
 ## Rooms:
 Houses with more rooms might have higher maintenance costs due to more areas to look after.
 More rooms could either mean a better or worse condition depending on maintenance. A larger house that's poorly maintained could be in worse condition than a smaller, well-maintained house.
+
+
+
+# testing the code
+
+## 1 - install requirmemts (pip install -r requirments.txt)
+## 2 - run training.py file (python training.py)
+## 3 - rum mlflow ui --port 9999, to open mflow ui
