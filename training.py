@@ -7,7 +7,7 @@ import mlflow
 import mlflow.pytorch
 import matplotlib.pyplot as plt
 
-num_epochs = 60
+num_epochs = 20
 experiment_name = f"house-predictor_{num_epochs}_epochs"
 
 # Ensure the experiment exists

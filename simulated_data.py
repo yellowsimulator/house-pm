@@ -19,15 +19,15 @@ class SimulatedDataset:
         rooms = np.random.randint(1, 7, self.n_samples)  # Assuming between 1 and 6 rooms
         
         # Maintenance Cost relationship with variables
-        maintenance_cost = (age * 15) - (material * 100) + (size * 10) + \
-                           (tenant_behavior * 50) - (maintenance_freq * 70) + \
-                           (budget_constraints * 300) - (prev_maintenance_quality * 80) + \
-                           (bathrooms * 120) + (has_garage * 200) + (rooms * 100)  # Rooms add to the cost
+        # maintenance_cost = (age * 15) - (material * 100) + (size * 10) + \
+        #                    (tenant_behavior * 50) - (maintenance_freq * 70) + \
+        #                    (budget_constraints * 300) - (prev_maintenance_quality * 80) + \
+        #                    (bathrooms * 120) + (has_garage * 200) + (rooms * 100)  # Rooms add to the cost
         
-        if location[0] == 'Urban':
-            maintenance_cost += 150
-        elif location[0] == 'Rural':
-            maintenance_cost -= 100
+        # if location[0] == 'Urban':
+        #     maintenance_cost += 150
+        # elif location[0] == 'Rural':
+        #     maintenance_cost -= 100
         
         #maintenance_cost += np.random.normal(0, 100, self.n_samples)  # Adding noise
         # Maintenance Cost relationship with variables

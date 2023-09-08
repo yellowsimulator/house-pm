@@ -9,7 +9,7 @@ def get_data(n_samples: int) -> tuple:
     """
     Get the data and split it into train, validation, and test sets.
 
-    Args:
+    Parameters:
         n_samples (int): Number of samples to generate
 
     Returns:

@@ -6,17 +6,17 @@ from preprocessing import test_loader
 from models import HousePredictorWithTransformerAttention
 
 
-def predict(model, test_loader):
+def predict(model, test_loader) -> tuple:
     """
     Predict maintenance costs and house conditions on test data.
     
     Parameters:
-    - model: The trained model.
-    - test_loader: DataLoader for the test data.
+        model: The trained model.
+        test_loader: DataLoader for the test data.
     
     Returns:
-    - maintenance_predictions: Predicted maintenance costs.
-    - condition_predictions: Predicted house conditions.
+        maintenance_predictions: Predicted maintenance costs.
+        condition_predictions: Predicted house conditions.
     """
     model.eval()  # Set model to evaluation mode
     

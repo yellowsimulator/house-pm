@@ -18,15 +18,15 @@ def plot_model_architecture() -> None:
     dot.render(filename='images/model_architecture')
 
 
-def plot_predictions(predicted_maintenance, real_maintenance, predicted_condition, real_condition):
+def plot_predictions(predicted_maintenance, real_maintenance, predicted_condition, real_condition) -> None:
     """
     Plot the predictions vs real values.
     
     Parameters:
-    - predicted_maintenance: Predicted maintenance costs.
-    - real_maintenance: Real maintenance costs.
-    - predicted_condition: Predicted house conditions.
-    - real_condition: Real house conditions.
+        predicted_maintenance: Predicted maintenance costs.
+        real_maintenance: Real maintenance costs.
+        predicted_condition: Predicted house conditions.
+        real_condition: Real house conditions.
     """
     fig, axes = plt.subplots(2, 1, figsize=(10, 12))
     
@@ -48,6 +48,3 @@ def plot_predictions(predicted_maintenance, real_maintenance, predicted_conditio
     
     plt.tight_layout()
     plt.show()
-
-# Example usage (you'll need to have the real values for this to work):
-# plot_predictions(maintenance_preds, real_maintenance_values, condition_preds, real_condition_values)
