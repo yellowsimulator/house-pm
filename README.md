@@ -47,6 +47,6 @@ More rooms could either mean a better or worse condition depending on maintenanc
 
 # testing the code
 
-## 1 - install requirmemts (pip install -r requirments.txt)
-## 2 - run training.py file (python training.py)
-## 3 - rum mlflow ui --port 9999, to open mflow ui
+## 1 - install requirmemts (pip install -r requirements.txt)
+## 2 - run: training.py file (python training.py)
+## 3 - rum: mlflow ui --port 9999, to open mflow ui
