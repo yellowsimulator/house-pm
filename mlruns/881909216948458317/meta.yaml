@@ -1,6 +1,0 @@
-artifact_location: file:///Users/yapidonatien/projects/house-pm/mlruns/881909216948458317
-creation_time: 1694172327386
-experiment_id: '881909216948458317'
-last_update_time: 1694172327386
-lifecycle_stage: active
-name: house-predictor_30_epochs
